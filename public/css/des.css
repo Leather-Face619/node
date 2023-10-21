@@ -1,0 +1,182 @@
+
+        html,
+        body {
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        a {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 940px;
+            margin: 0 auto;
+        }
+
+        /* Main */
+
+        .main {
+            text-align: center;
+            background: url("https://images.unsplash.com/photo-1427722483643-7932657d348e?fit=crop&fm=jpg&h=1000&ixlib=rb-0.3.5&q=80&w=1925") no-repeat center center;
+            background-size: cover;
+            height: 600px;
+        }
+
+        .main .container {
+            position: relative;
+            top: 100px;
+        }
+
+        .main h1 {
+            color: #FF3333;
+            margin: 0;
+            font-size: 150px;
+        }
+
+        .main p {
+            color: #FF3333;
+            margin: 0 0 20px 0;
+            font-size: 18px;
+        }
+
+        .main .btn {
+            /*   background-color: #1c1c1c; */
+            color: #fff;
+            font-size: 18px;
+            padding: 8px 30px;
+            text-decoration: none;
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 5%;
+        }
+
+        /* Supporting */
+
+        .supporting {
+            background-color: #1c1c1c;
+            text-align: center;
+            padding: 50px 0 80px;
+        }
+
+        .supporting .col {
+            float: left;
+            width: 28%;
+            padding: 10px;
+        }
+
+        .supporting h2 {
+            color: #FF3333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .supporting p {
+            color: #efefef;
+            margin-bottom: 20px;
+            line-height: 20px;
+            font-size: 12px;
+        }
+
+        .supporting .btn {
+            background-color: #eee;
+            color: #1c1c1c;
+            font-size: 18px;
+            padding: 8px 30px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Feature */
+
+        .feature {
+            background: url("https://images.unsplash.com/photo-1445098344978-4080e28b6355?fit=crop&fm=jpg&h=1000&ixlib=rb-0.3.5&q=80&w=1925") no-repeat center center;
+            background-size: cover;
+            height: 600px;
+            text-align: center;
+        }
+
+        .feature .container {
+            position: relative;
+            top: 200px;
+        }
+
+        .feature h2 {
+            color: #ff3333;
+            font-size: 40px;
+            margin: 0;
+            padding: 50px 0 0;
+        }
+
+        /* Footer */
+
+        .footer {
+            background: url("https://images.unsplash.com/photo-1445264416166-b32067da6c7f?fit=crop&fm=jpg&h=1000&ixlib=rb-0.3.5&q=80&w=1925") no-repeat center center;
+            background-size: cover;
+            height: 600px;
+            text-align: center;
+        }
+
+        .footer .container {
+            position: relative;
+            top: 200px;
+        }
+
+        .footer h2 {
+            color: #ffff;
+            font-size: 40px;
+            margin: 0 0 20px 0;
+            padding: 50px 0 0;
+        }
+
+        .footer p {
+            color: #fff;
+            margin: 0 0 20px 0;
+            font-size: 18px;
+        }
+
+        .footer .btn {
+            background-color: #1c1c1c;
+            color: #fff;
+            font-size: 18px;
+            padding: 8px 30px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a.btn:hover {
+            color: #FF3333;
+        }
+
+        @media (min-width:600px) {
+            .main h1 {
+                font-size: 200px;
+            }
+
+            .supporting .col {
+                width: 30%;
+            }
+
+            .supporting h2 {
+                font-size: 40px;
+            }
+
+            .supporting p {
+                font-size: 14px;
+            }
+
+            .feature h2 {
+                font-size: 60px;
+            }
+        }
+    
